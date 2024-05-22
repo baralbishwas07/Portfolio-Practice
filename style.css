@@ -1,0 +1,242 @@
+body{
+    background-color: #D2D2DB;
+}
+/* First Section */
+.first.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero.section{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#name{
+    color: #6D9D07;
+}
+.name.info{
+    font-size: 3rem;
+}
+.job.info{
+    font-size: 2.5rem;
+}
+.chat{
+    background-color: #6D9D07;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+}
+/* Second Section */
+.second.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.skill{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    
+}
+.resume>div{
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+.paragraph{
+    width: 60%;
+    background-color: #A6A6A6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+}
+.resume>h2{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    font-size: 3rem;
+}
+.skills{
+    background-color: #6D9D07;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    color: white;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.more.details{
+    height: 90%;
+    border-radius: 50px;
+    margin-top: 150px;
+}
+.profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.details.image{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.detail{
+    text-align: center;
+    background-color: #A6A6A6;
+    width: 60%;
+    height: 90%;
+    border-radius: 50px;
+}
+.details.list{
+    font-size:  25px;
+    padding-left: 50px;
+}
+.listing>li{
+    text-align: left;
+    list-style:disc;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.project{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.project.heading>h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    width: 50%;
+    row-gap: 2rem;
+    column-gap: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.heading{
+    grid-column: span 2;  
+    text-align: left;
+    font-size: 2rem;  
+}
+.projects p{
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 20px;
+  }
+.check{
+    width: 100px;
+    height: 50px;
+    background-color: #6D9D07;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+  }
+.fourth.container{
+    font-family: "Reddit Sans", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contact>h2{
+    font-size: 50px;
+  }
+  .contact>p{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .contact-button{
+    background-color: #004AAD;
+    color: white;
+    border: none;
+    width: 175px;
+    height: 50px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+  }
+  .highlight{
+    color: #004AAD;
+  }
+  .footer{
+    background-color: #ACE1AF;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 50px 0 20px;
+  }
+.connection{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer>p{
+    padding: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+@media(max-width:992px){
+    .second.container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .detail{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .projects{
+        width: auto;
+    }
+}
+@media(max-width:576px){
+    .detail{
+        width: 100%;
+        margin: 0;
+    }
+    .projects{
+        margin-left: 0;
+    }
+    .project{
+        width: 200px;
+        height: 150px;
+    }
+    .resume>h2{
+        text-align: center;
+    }
+}
