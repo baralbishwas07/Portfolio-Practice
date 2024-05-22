@@ -80,7 +80,7 @@ body{
     text-align: left;
     margin-top: 50px;
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 10px;
     padding: 50px;
     font-size: 3rem;
 }
@@ -240,6 +240,10 @@ button:hover{
     .project{
         width: 200px;
         height: 150px;
+    }
+    .resume>h2{
+        margin-left: 0;
+        text-align: center;
     }
     
 }
