@@ -1,8 +1,7 @@
-html{
+
+html,body{
     margin: 0;
-    padding: 0;
-}
-body{
+    padding:0;
     background-color: #D2D2DB;
 }
 /* First Section */
